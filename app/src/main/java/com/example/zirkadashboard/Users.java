@@ -4,11 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Users extends AppCompatActivity {
+import com.example.zirkadashboard.base.BaseActivity;
+
+public class Users extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_users);
+
+    }
+
+    @Override
+    public int getFragmentLayout() {
+        return R.layout.activity_users;
     }
 }

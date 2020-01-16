@@ -4,11 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.zirkadashboard.base.BaseActivity;
+
+public class Earnings extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_earnings);
+
+    }
+
+    @Override
+    public int getFragmentLayout() {
+        return R.layout.activity_earnings;
     }
 }

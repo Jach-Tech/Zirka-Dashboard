@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/cardview_dark_background"
     android:orientation="vertical"
     tools:context=".Dashboard"
     >
@@ -23,7 +23,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:padding="10dp"
-            android:src="@drawable/star"/>
+            android:src="@drawable/zirka"/>
 
         <Space
             android:layout_width="wrap_content"
@@ -89,13 +89,15 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/dashboard_to_earnings"
+    >
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:scaleType="centerCrop"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/upgrade"
+        android:src="@drawable/earnings"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -132,13 +134,14 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:id="@+id/dashboard_to_event"
                     android:layout_height="match_parent">
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/upgrade"
+                        android:src="@drawable/event"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -184,13 +187,14 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:id="@+id/dashboard_to_users"
                     android:layout_height="match_parent">
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/upgrade"
+                        android:src="@drawable/users"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -225,13 +229,14 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:id="@+id/dashboard_to_tickets"
                     android:layout_height="match_parent">
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/upgrade"
+                        android:src="@drawable/ticket"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -300,7 +305,7 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="5dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/circleyellowfil" />
+                        android:src="@drawable/event" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -335,7 +340,7 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="5dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/circleyellowfil" />
+                        android:src="@drawable/earnings" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -372,7 +377,7 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="5dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/circleyellowfil" />
+                        android:src="@drawable/users" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -409,7 +414,7 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="5dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/circleyellowfil" />
+                        android:src="@drawable/ticket" />
 
                     <TextView
                         android:layout_width="wrap_content"

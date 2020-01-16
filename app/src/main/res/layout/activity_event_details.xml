@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 android:orientation="vertical"
-    android:background="@color/blue_300"
+    android:background="@color/cardview_dark_background"
     tools:context=".EventDetails">
     <LinearLayout
         android:id="@+id/topbar"
@@ -103,7 +103,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/upgrade" />
+                            android:src="@drawable/ticket" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -200,7 +200,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/upgrade" />
+                            android:src="@drawable/earnings" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -242,7 +242,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/upgrade" />
+                            android:src="@drawable/users" />
 
                         <TextView
                             android:layout_width="wrap_content"

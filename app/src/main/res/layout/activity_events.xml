@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_500"
+    android:background="@color/cardview_dark_background"
     tools:context=".Events">
 
     <!--Top Header Layout-->
@@ -86,7 +86,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -110,7 +114,7 @@
                                 android:layout_height="50dp"
                                 android:scaleType="centerCrop"
                                 android:layout_gravity="center_horizontal"
-                                android:src="@drawable/upgrade"
+                                android:src="@drawable/event"
                                 />
                             <TextView
                                 android:layout_width="wrap_content"
@@ -189,7 +193,7 @@
                                 android:layout_height="50dp"
                                 android:scaleType="centerCrop"
                                 android:layout_gravity="center_horizontal"
-                                android:src="@drawable/upgrade"
+                                android:src="@drawable/organizer"
                                 />
                             <TextView
                                 android:layout_width="wrap_content"
@@ -214,6 +218,7 @@
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
+                </HorizontalScrollView>
 
 
                 <LinearLayout
