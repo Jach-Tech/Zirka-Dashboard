@@ -103,7 +103,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/fui_ic_check_circle_black_128dp" />
+                            android:src="@drawable/upgrade" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -146,7 +146,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/fui_ic_check_circle_black_128dp" />
+                            android:src="@drawable/upgrade" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -200,7 +200,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/fui_ic_check_circle_black_128dp" />
+                            android:src="@drawable/upgrade" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -242,7 +242,7 @@ android:orientation="vertical"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/fui_ic_check_circle_black_128dp" />
+                            android:src="@drawable/upgrade" />
 
                         <TextView
                             android:layout_width="wrap_content"

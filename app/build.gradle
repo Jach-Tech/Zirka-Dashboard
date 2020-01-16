@@ -54,7 +54,7 @@ dependencies {
     //VIEW MODEL & LIVE DATA
     implementation "androidx.lifecycle:lifecycle-extensions:2.1.0"
     implementation 'androidx.lifecycle:lifecycle-runtime:2.1.0'
-    androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
+    //androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
 
     //EASY PERMISSIONS
     implementation 'pub.devrel:easypermissions:3.0.0'

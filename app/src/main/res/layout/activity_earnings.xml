@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blue_500"
-    tools:context=".Events">
+    tools:context=".MainActivity">
 
     <!--Top Header Layout-->
     <LinearLayout
@@ -22,8 +22,7 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:padding="10dp"
-            />
+            android:padding="10dp" />
 
         <Space
             android:layout_width="wrap_content"
@@ -33,7 +32,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Events"
+            android:text="Earnings"
             android:textColor="@android:color/white"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -115,7 +114,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="120"
+                                android:text="$ 2 400"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="@android:color/black"
@@ -124,7 +123,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Total"
+                                android:text="Received"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:layout_gravity="center_horizontal"
 
@@ -154,7 +153,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="40"
+                                android:text="$ 1 200"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="@android:color/black"
@@ -163,7 +162,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="On going"
+                                android:text="To pay"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:layout_gravity="center_horizontal"
 
@@ -194,7 +193,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="80"
+                                android:text="$ 1 200"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="@android:color/black"
@@ -203,7 +202,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Finished"
+                                android:text="Profits"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:layout_gravity="center_horizontal"
 
@@ -233,7 +232,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="List Of Events"
+                            android:text="List Of Organizers"
                             android:fontFamily="@font/proximanovaregular"
                             android:layout_gravity="center_horizontal"
                             android:textColor="@android:color/black"

@@ -2,11 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Ligablo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SampleProfileUi" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Soldapic" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Zirka" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/open-event-organizer-android" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/open-event-organizer-android2" vcs="Git" />
   </component>
 </project>
